@@ -9,7 +9,7 @@ function Singleview(props) {
         return (
             
             <div className="mainContainer">
-                <Link className="back" to="/">Go Back</Link>
+                <Link className="back" to="/">&larr;</Link>
                  <div className="image-header" id={user.id}>
             <img className="image" src={user.picture.medium} alt="profile"/>
             </div>
