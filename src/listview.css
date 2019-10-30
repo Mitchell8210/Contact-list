@@ -1,0 +1,85 @@
+html{box-sizing: border-box}
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+img{
+    border-radius: 50%;
+    height:40px;
+    margin-right:5px;
+}
+.myPeeps{
+    background:rgb(122,179,58);
+    font-size: 30px;
+    padding:10px;
+    width:400px;
+    margin:auto;
+    color:white;
+
+}
+.mainContainer{
+    margin:auto;
+    width:410px;
+    margin-top:200px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.container{
+    display: flex;
+    margin:auto;
+    align-items: center;
+    border: 1px solid #ccc;
+    width:400px;
+    padding:10px;
+    position: relative;
+}
+.back{
+ position:absolute;
+ top:20px;
+ color:black;
+
+}
+.link{
+    text-decoration: none;
+    width:410px;
+    display: flex;
+    align-items: center
+}
+
+.name{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+    color:black;
+    text-decoration: none;
+}
+
+.image-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(160,201,111);
+    height:200px;
+    width:410px;
+    margin:auto;
+}
+.image{
+    height:100px;
+}
+
+.info{
+    width:410px;
+    border:1px solid #ccc;
+    font-size: 20px;
+    margin:auto;
+    white-space: nowrap;
+}
+.singleName, .email, .phone, .location{
+    height:40px;
+    padding:10px;
+    border-bottom:1px solid #ccc
+
+}
+.singleName{
+    text-transform: capitalize;
+}
